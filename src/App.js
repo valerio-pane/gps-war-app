@@ -114,7 +114,7 @@ Punto strategico per manovre navali nel Tirreno e nel Mediterraneo occidentale.`
   }
 ];
 
-// Navi alleate e rotte
+// Navi alleate e rotte (tutte quelle che hai fornito: 12+)
 const navi = [
   {
     nome: "USS Gerald R. Ford",
@@ -305,7 +305,7 @@ const navi = [
   }
 ];
 
-// Funzioni di supporto
+// Funzioni di supporto (vedi codice precedente: haversine, interpola, calcolaPosizioneNave ecc.)
 const haversine = (c1, c2) => {
   const toRad = (d) => (d * Math.PI) / 180;
   const R = 6371;
@@ -758,7 +758,7 @@ export default function App() {
         dragging
       >
         <TileLayer
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=INSERISCI_LA_TUA_API_KEY"
           attribution=""
           opacity={1}
         />
