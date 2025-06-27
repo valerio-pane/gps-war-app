@@ -758,7 +758,7 @@ export default function App() {
         dragging
       >
         <TileLayer
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=INSERISCI_LA_TUA_API_KEY"
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=70aa0216-f8f7-4ffe-ab5a-d4c831f81575"
           attribution=""
           opacity={1}
         />
